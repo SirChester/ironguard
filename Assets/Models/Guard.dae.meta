@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 495edc3a623ff2445a0419e6ba3e7232
+timeCreated: 1490470333
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Guard_chest
+    100004: Guard_head
+    100006: Guard_l_arm_lower
+    100008: Guard_l_arm_upper
+    100010: Guard_l_feet
+    100012: Guard_l_hand
+    100014: Guard_l_leg_lower
+    100016: Guard_l_leg_upper
+    100018: Guard_l_shoulder
+    100020: Guard_r_arm_lower
+    100022: Guard_r_arm_upper
+    100024: Guard_r_feet
+    100026: Guard_r_hand
+    100028: Guard_r_leg_lower
+    100030: Guard_r_leg_upper
+    100032: Guard_r_shoulder
+    100034: Guard_torso
+    100036: Guard_pelvis
+    400000: //RootNode
+    400002: Guard_chest
+    400004: Guard_head
+    400006: Guard_l_arm_lower
+    400008: Guard_l_arm_upper
+    400010: Guard_l_feet
+    400012: Guard_l_hand
+    400014: Guard_l_leg_lower
+    400016: Guard_l_leg_upper
+    400018: Guard_l_shoulder
+    400020: Guard_r_arm_lower
+    400022: Guard_r_arm_upper
+    400024: Guard_r_feet
+    400026: Guard_r_hand
+    400028: Guard_r_leg_lower
+    400030: Guard_r_leg_upper
+    400032: Guard_r_shoulder
+    400034: Guard_torso
+    400036: Guard_pelvis
+    2300000: //RootNode
+    2300002: Guard_chest
+    2300004: Guard_head
+    2300006: Guard_l_arm_lower
+    2300008: Guard_l_arm_upper
+    2300010: Guard_l_feet
+    2300012: Guard_l_hand
+    2300014: Guard_l_leg_lower
+    2300016: Guard_l_leg_upper
+    2300018: Guard_l_shoulder
+    2300020: Guard_r_arm_lower
+    2300022: Guard_r_arm_upper
+    2300024: Guard_r_feet
+    2300026: Guard_r_hand
+    2300028: Guard_r_leg_lower
+    2300030: Guard_r_leg_upper
+    2300032: Guard_r_shoulder
+    2300034: Guard_torso
+    2300036: Guard_pelvis
+    3300000: //RootNode
+    3300002: Guard_chest
+    3300004: Guard_head
+    3300006: Guard_l_arm_lower
+    3300008: Guard_l_arm_upper
+    3300010: Guard_l_feet
+    3300012: Guard_l_hand
+    3300014: Guard_l_leg_lower
+    3300016: Guard_l_leg_upper
+    3300018: Guard_l_shoulder
+    3300020: Guard_r_arm_lower
+    3300022: Guard_r_arm_upper
+    3300024: Guard_r_feet
+    3300026: Guard_r_hand
+    3300028: Guard_r_leg_lower
+    3300030: Guard_r_leg_upper
+    3300032: Guard_r_shoulder
+    3300034: Guard_torso
+    3300036: Guard_pelvis
+    4300000: Guard_pelvis
+    4300002: Guard_l_leg_upper
+    4300004: Guard_l_leg_lower
+    4300006: Guard_l_feet
+    4300008: Guard_r_leg_upper
+    4300010: Guard_r_leg_lower
+    4300012: Guard_r_feet
+    4300014: Guard_torso
+    4300016: Guard_chest
+    4300018: Guard_head
+    4300020: Guard_l_shoulder
+    4300022: Guard_l_arm_upper
+    4300024: Guard_l_arm_lower
+    4300026: Guard_l_hand
+    4300028: Guard_r_shoulder
+    4300030: Guard_r_arm_upper
+    4300032: Guard_r_arm_lower
+    4300034: Guard_r_hand
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Guard_pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_l_leg_upper
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_r_leg_upper
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_l_leg_lower
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_r_leg_lower
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_l_feet
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_r_feet
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_torso
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_l_shoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_r_shoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_l_arm_upper
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_r_arm_upper
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_l_arm_lower
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_r_arm_lower
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_l_hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Guard_r_hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Guard(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_pelvis
+      parentName: Guard(Clone)
+      position: {x: -0.03, y: 2.35, z: 0.2000001}
+      rotation: {x: 0.0000000814605, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_l_leg_upper
+      parentName: Guard_pelvis
+      position: {x: -0.12, y: -0.0999999, z: 0.0000000149012}
+      rotation: {x: -9.9209e-10, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_l_leg_lower
+      parentName: Guard_l_leg_upper
+      position: {x: -0, y: -0.4000001, z: 0.0000000596046}
+      rotation: {x: -0.00000000148813, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_l_feet
+      parentName: Guard_l_leg_lower
+      position: {x: -0, y: -0.4, z: 0.0000000596046}
+      rotation: {x: 0.000000001741115, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_r_leg_upper
+      parentName: Guard_pelvis
+      position: {x: 0.13, y: -0.0999999, z: 0.0000000149012}
+      rotation: {x: -9.9209e-10, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_r_leg_lower
+      parentName: Guard_r_leg_upper
+      position: {x: -0, y: -0.4000001, z: 0.0000000596046}
+      rotation: {x: -0.00000000148813, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_r_feet
+      parentName: Guard_r_leg_lower
+      position: {x: -0, y: -0.4, z: 0.0000000596046}
+      rotation: {x: 0.000000001741115, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_torso
+      parentName: Guard_pelvis
+      position: {x: 0.00000000372529, y: 0.1500001, z: 0.02999999}
+      rotation: {x: -9.9209e-10, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_chest
+      parentName: Guard_torso
+      position: {x: -0.00000000186265, y: 0.3499999, z: -0.03000002}
+      rotation: {x: -0.00000000148813, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_head
+      parentName: Guard_chest
+      position: {x: 0.00000000372529, y: 0.1500001, z: 0.04999997}
+      rotation: {x: -0.000000001984175, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_l_shoulder
+      parentName: Guard_chest
+      position: {x: -0.25, y: 0, z: 0.05}
+      rotation: {x: -0.000000001984175, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_l_arm_upper
+      parentName: Guard_l_shoulder
+      position: {x: -0.12, y: -0.04999995, z: -0.05000003}
+      rotation: {x: 0.00000000124507, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_l_arm_lower
+      parentName: Guard_l_arm_upper
+      position: {x: -0.1999999, y: 0, z: 0.05000004}
+      rotation: {x: 7.49025e-10, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_l_hand
+      parentName: Guard_l_arm_lower
+      position: {x: -0.2, y: 0, z: -0.0000000298023}
+      rotation: {x: 2.529815e-10, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_r_shoulder
+      parentName: Guard_chest
+      position: {x: 0.26, y: 0, z: 0.05}
+      rotation: {x: -0.000000001984175, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_r_arm_upper
+      parentName: Guard_r_shoulder
+      position: {x: 0.12, y: -0.04999995, z: -0.05000003}
+      rotation: {x: 0.00000000124507, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_r_arm_lower
+      parentName: Guard_r_arm_upper
+      position: {x: 0.2, y: 0, z: 0.05000004}
+      rotation: {x: 7.49025e-10, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard_r_hand
+      parentName: Guard_r_arm_lower
+      position: {x: 0.2, y: 0, z: -0.0000000298023}
+      rotation: {x: 2.529815e-10, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 54b2bf096c5f7a44b826de7a16c26c10,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.4.0" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+  <asset>
+    <contributor>
+      <authoring_tool>Minddesk Qubicle 3</authoring_tool>
+      <comments>Get Qubicle at www.getqubicle.com</comments>
+    </contributor>
+    <created>2017-03-0211:36 PM23:36:53:508</created>
+    <modified>2017-03-0211:36 PM23:36:53:508</modified>
+    <unit meter="1.0" />
+  </asset>
+  <library_images>
+    <image id="Chesters_cane-image" name="Chesters_cane-image">
+      <init_from>file:///materials/Chesters_cane.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Chesters_cane-material" name="Chesters_cane-material">
+      <instance_effect url="#Chesters_cane-shader-fx" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Chesters_cane-shader-fx" name="Chesters_cane-shader-fx">
+      <profile_COMMON>
+        <newparam sid="Chesters_cane-image-surface">
+          <surface type="2D">
+            <init_from>Chesters_cane-image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Chesters_cane-image-sampler">
+          <sampler2D>
+            <source>Chesters_cane-image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="standard">
+          <lambert>
+            <ambient>
+              <color sid="ambient">0.0 0.0 0.0 1.0</color>
+            </ambient>
+            <diffuse>
+              <texture texcoord="CHANNEL0" texture="Chesters_cane-image-sampler" />
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry name="Chesters_cane" id="Chesters_cane-lib">
+      <mesh>
+        <source id="Chesters_cane-position">
+          <float_array id="Chesters_cane-position-array" count="114">0.5 7.5 -0.5 0.5 -11.5 -0.5 -0.5 -11.5 -0.5 -0.5 7.5 -0.5 0.5 11.5 -0.5 0.5 8.5 -0.5 -0.5 8.5 -0.5 -0.5 11.5 -0.5 0.5 8.5 -1.5 0.5 7.5 -1.5 -0.5 7.5 -1.5 -0.5 8.5 -1.5 -1.5 7.5 -0.5 -1.5 8.5 -0.5 1.5 8.5 -0.5 1.5 7.5 -0.5 -0.5 7.5 0.5 -0.5 -11.5 0.5 0.5 -11.5 0.5 0.5 7.5 0.5 -0.5 10.5 0.5 -0.5 8.5 0.5 0.5 8.5 0.5 0.5 10.5 0.5 -1.5 8.5 0.5 -1.5 7.5 0.5 1.5 7.5 0.5 1.5 8.5 0.5 -0.5 8.5 1.5 -0.5 7.5 1.5 0.5 7.5 1.5 0.5 8.5 1.5 -0.5 11.5 1.5 -0.5 10.5 1.5 0.5 10.5 1.5 0.5 11.5 1.5 -0.5 10.5 -0.5 0.5 10.5 -0.5 </float_array>
+          <technique_common>
+            <accessor source="#Chesters_cane-position-array" stride="3" count="38">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Chesters_cane-normal">
+          <float_array id="Chesters_cane-normal-array" count="18">0.0 0.0 1.0 0.0 0.0 -1.0 -1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 -1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#Chesters_cane-normal-array" stride="3" count="6">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Chesters_cane-uv">
+          <float_array id="Chesters_cane-uv-array" count="280">0.03125 0.625 0.03125 0.03125 0.0625 0.03125 0.0625 0.625 0.125 0.625 0.125 0.03125 0.15625 0.03125 0.15625 0.625 0.21875 0.625 0.21875 0.03125 0.25 0.03125 0.25 0.625 0.3125 0.625 0.3125 0.03125 0.34375 0.03125 0.34375 0.625 0.40625 0.125 0.40625 0.03125 0.4375 0.03125 0.4375 0.125 0.5 0.09375 0.5 0.03125 0.53125 0.03125 0.53125 0.09375 0.59375 0.09375 0.59375 0.03125 0.625 0.03125 0.625 0.09375 0.6875 0.09375 0.6875 0.03125 0.71875 0.03125 0.71875 0.09375 0.78125 0.09375 0.78125 0.03125 0.8125 0.03125 0.8125 0.09375 0.875 0.0625 0.875 0.03125 0.9375 0.03125 0.9375 0.0625 0.40625 0.21875 0.40625 0.1875 0.46875 0.1875 0.46875 0.21875 0.53125 0.21875 0.53125 0.1875 0.5625 0.1875 0.5625 0.21875 0.625 0.21875 0.625 0.1875 0.65625 0.1875 0.65625 0.21875 0.71875 0.21875 0.71875 0.1875 0.75 0.1875 0.75 0.21875 0.8125 0.21875 0.8125 0.1875 0.84375 0.1875 0.84375 0.21875 0.90625 0.21875 0.90625 0.1875 0.9375 0.1875 0.9375 0.21875 0.40625 0.3125 0.40625 0.28125 0.4375 0.28125 0.4375 0.3125 0.5 0.3125 0.5 0.28125 0.53125 0.28125 0.53125 0.3125 0.59375 0.3125 0.59375 0.28125 0.625 0.28125 0.625 0.3125 0.6875 0.3125 0.6875 0.28125 0.71875 0.28125 0.71875 0.3125 0.78125 0.3125 0.78125 0.28125 0.8125 0.28125 0.8125 0.3125 0.875 0.3125 0.875 0.28125 0.90625 0.28125 0.90625 0.3125 0.40625 0.40625 0.40625 0.375 0.4375 0.375 0.4375 0.40625 0.5 0.40625 0.5 0.375 0.53125 0.375 0.53125 0.40625 0.59375 0.40625 0.59375 0.375 0.625 0.375 0.625 0.40625 0.6875 0.40625 0.6875 0.375 0.71875 0.375 0.71875 0.40625 0.78125 0.40625 0.78125 0.375 0.8125 0.375 0.8125 0.40625 0.875 0.40625 0.875 0.375 0.90625 0.375 0.90625 0.40625 0.40625 0.5 0.40625 0.46875 0.4375 0.46875 0.4375 0.5 0.5 0.5 0.5 0.46875 0.53125 0.46875 0.53125 0.5 0.59375 0.5 0.59375 0.46875 0.625 0.46875 0.625 0.5 0.6875 0.5 0.6875 0.46875 0.71875 0.46875 0.71875 0.5 0.78125 0.5 0.78125 0.46875 0.8125 0.46875 0.8125 0.5 0.875 0.5 0.875 0.46875 0.90625 0.46875 0.90625 0.5 0.4375 0.09375 0.40625 0.09375 0.90625 0.03125 0.4375 0.1875 </float_array>
+          <technique_common>
+            <accessor source="#Chesters_cane-uv-array" stride="2" count="140">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Chesters_cane-vertex">
+          <input semantic="POSITION" source="#Chesters_cane-position" />
+        </vertices>
+        <polylist material="Chesters_cane-material" count="72">
+          <input offset="0" semantic="VERTEX" source="#Chesters_cane-vertex" />
+          <input offset="1" semantic="NORMAL" source="#Chesters_cane-normal" />
+          <input offset="2" semantic="TEXCOORD" source="#Chesters_cane-uv" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 1 13 3 1 15 0 1 12 1 1 13 2 1 14 3 1 15 7 1 19 4 1 16 37 1 137 37 1 137 36 1 136 7 1 19 36 1 136 37 1 137 5 1 17 5 1 17 6 1 18 36 1 136 9 1 57 11 1 59 8 1 56 9 1 57 10 1 58 11 1 59 3 1 53 13 1 55 6 1 52 3 1 53 12 1 54 13 1 55 15 1 49 5 1 51 14 1 48 15 1 49 0 1 50 5 1 51 17 0 1 19 0 3 16 0 0 17 0 1 18 0 2 19 0 3 21 0 33 23 0 35 20 0 32 21 0 33 22 0 34 23 0 35 25 0 61 21 0 63 24 0 60 25 0 61 16 0 62 21 0 63 19 0 73 27 0 75 22 0 72 19 0 73 26 0 74 27 0 75 29 0 69 31 0 71 28 0 68 29 0 69 30 0 70 31 0 71 33 0 65 35 0 67 32 0 64 33 0 65 34 0 66 35 0 67 2 2 9 16 2 11 3 2 8 2 2 9 17 2 10 16 2 11 6 2 21 20 2 23 36 2 20 6 2 21 21 2 22 20 2 23 32 2 39 7 2 36 36 2 37 36 2 37 33 2 38 32 2 39 33 2 38 36 2 37 20 2 138 10 2 45 6 2 47 11 2 44 10 2 45 3 2 46 6 2 47 12 2 117 24 2 119 13 2 116 12 2 117 25 2 118 24 2 119 16 2 113 28 2 115 21 2 112 16 2 113 29 2 114 28 2 115 18 3 5 0 3 7 19 3 4 18 3 5 1 3 6 0 3 7 22 3 29 37 3 31 23 3 28 22 3 29 5 3 30 37 3 31 4 3 43 35 3 40 34 3 41 34 3 41 37 3 42 4 3 43 37 3 42 34 3 41 23 3 139 0 3 109 8 3 111 5 3 108 0 3 109 9 3 110 8 3 111 26 3 121 14 3 123 27 3 120 26 3 121 15 3 122 14 3 123 30 3 133 22 3 135 31 3 132 30 3 133 19 3 134 22 3 135 7 4 24 32 4 25 4 4 27 32 4 25 35 4 26 4 4 27 11 4 128 6 4 129 8 4 131 6 4 129 5 4 130 8 4 131 13 4 124 24 4 125 6 4 127 24 4 125 21 4 126 6 4 127 5 4 104 22 4 105 14 4 107 22 4 105 27 4 106 14 4 107 21 4 84 28 4 85 22 4 87 28 4 85 31 4 86 22 4 87 3 5 80 10 5 81 0 5 83 10 5 81 9 5 82 0 5 83 25 5 76 12 5 77 16 5 79 12 5 77 3 5 78 16 5 79 17 5 88 2 5 89 18 5 91 2 5 89 1 5 90 18 5 91 19 5 100 0 5 101 26 5 103 0 5 101 15 5 102 26 5 103 29 5 96 16 5 97 30 5 99 16 5 97 19 5 98 30 5 99 33 5 92 20 5 93 34 5 95 20 5 93 23 5 94 34 5 95 </p>
+        </polylist>
+      </mesh>
+    </geometry>)
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Chesters_cane-scene" name="Chesters_cane-scene">
+      <node sid="Chesters_cane" id="Chesters_cane" name="Chesters_cane">
+        <translate sid="translate">0.00 0.00 0.00</translate>
+        <instance_geometry url="#Chesters_cane-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Chesters_cane-material" target="#Chesters_cane-material" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene name="" sid="" url="#Chesters_cane-scene" />
+  </scene>
+</COLLADA>
