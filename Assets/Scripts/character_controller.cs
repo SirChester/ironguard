@@ -24,8 +24,10 @@ public class character_controller : MonoBehaviour {
     //temp var for tracking the last input from player
     private float last_v_input = 0;
     private float last_h_input = 0;
-    //time in seconds for damping
-    public float damp_time;
+    //time in seconds for acceleration damping
+    public float damp_time_a;
+    //time in seconds for deceleration damping
+    public float damp_time_d;
 
     private float v_input;
     private float h_input;
@@ -49,27 +51,27 @@ public class character_controller : MonoBehaviour {
             {
                v_input = Input.GetAxis("Vertical");
                //damping vertical speed
-               v_speed = Mathf.SmoothDamp(v_speed, max_speed, ref damp_velocity_v, damp_time);
+               v_speed = Mathf.SmoothDamp(v_speed, max_speed, ref damp_velocity_v, damp_time_a);
                 //checking for a sharp turn
                 if (last_v_input == (v_input * (-1)))
                     v_speed = 0;
                 last_v_input = v_input;
             }else
             {   // damping to zero when no input
-                v_speed = Mathf.SmoothDamp(v_speed, 0, ref damp_velocity_v, damp_time);
+                v_speed = Mathf.SmoothDamp(v_speed, 0, ref damp_velocity_v, damp_time_d);
             }
             //same idea
             if ((Mathf.Abs(Input.GetAxis("Horizontal")) == 1))
             {
                 h_input = Input.GetAxis("Horizontal");
-                h_speed = Mathf.SmoothDamp(h_speed, max_speed, ref damp_velocity_h, damp_time);
+                h_speed = Mathf.SmoothDamp(h_speed, max_speed, ref damp_velocity_h, damp_time_a);
                 if (last_h_input == (h_input * (-1)))
                     h_speed = 0;
                 last_h_input = h_input;
             }
             else
             {
-                h_speed = Mathf.SmoothDamp(h_speed, 0, ref damp_velocity_h, damp_time);
+                h_speed = Mathf.SmoothDamp(h_speed, 0, ref damp_velocity_h, damp_time_d);
             }
            
             // implementing movement
